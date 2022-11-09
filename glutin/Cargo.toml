@@ -22,7 +22,7 @@ default = ["x11", "wayland", "wayland-dlopen"]
 
 [dependencies]
 lazy_static = "1.3"
-winit = { git = "https://github.com/t-sin/winit", branch = "with-parent-window-in-x11" }
+winit = { git = "https://github.com/t-sin/winit", branch = "soyboy-sp/parent-window-patch" }
 
 [target.'cfg(target_os = "android")'.dependencies]
 android_glue = "0.2"
